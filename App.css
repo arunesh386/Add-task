@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  background: linear-gradient(135deg, #43C6AC, #F8FFAE);
+ height: 900px;
+ display: flex;
+ text-align: center;
+}
+.heading{
+  font-size: 42px;
+  padding: 20px;
+  color: yellow;
+  text-align: center;
+  padding-left: 200px;
+}
+.child{
+  flex: 2;
+  
+}
+.tasklist{
+  margin-top: 5px;
+  text-align: center;
+}
+.task{
+  background-color: aliceblue;
+  padding: 10px;
+  list-style: none;
+  font-size: 22px;
+  margin-left: 3rem;
+  margin: 10px ;
+  cursor: pointer;
+}
+.task:hover{
+  background: #e7e7e7;
+}
+.btn{
+  height: 40px;
+    width: 30px;
+    font-size: 28px;
+    font-weight: 700;
+    border: none;
+    position: relative;
+    top: 7px;
+    left: 91px;
+}
+.addtask{
+  height: 30px;
+  margin-left: 100px;
+
+}
+.addtasksave{
+    height: 30px;
+    width: 50px;
+    background-color:lightskyblue;
+    border: none;
+    margin-left: 60px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.addtaskclose{
+  height: 30px;
+    width: 50px;
+    background-color:lightskyblue;
+    border: none;
+    margin-left: 60px;
+    cursor: pointer;
+}
+#taskerr{
+  color: red;
+}
+li {
+  
+}
+.deletetask{
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    border: none;
+    height: 30px;
+    width: 70px;
+    border-radius: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+#little{
+  /* background: #f1f1f1;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px; */
+}
