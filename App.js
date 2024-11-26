@@ -116,16 +116,6 @@ const tasksave = ()=>{
          </div>
         ))}
        
-        <div className='child'>
-        
-
-        </div>
-        <div className='child'>
-        
-        </div>
-        <div className='child'>
-          
-        </div>
       </div>
     </div>
   );
